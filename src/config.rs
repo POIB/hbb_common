@@ -100,8 +100,8 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["${{ secrets.RENDEZVOUS_SERVERS }}"];
-pub const RS_PUB_KEY: &str = "${{ secrets.RS_PUB_KEY }}";
+pub const RENDEZVOUS_SERVERS: &[&str] = &["47.117.0.182"];
+pub const RS_PUB_KEY: &str = "d3sKQYh2D+jA+CTT6M8DTkC19eUkvOgMP7QpfBhT33I=";
 
 pub const RENDEZVOUS_PORT: i32 = 21116;
 pub const RELAY_PORT: i32 = 21117;
